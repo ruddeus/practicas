@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        <h1>Lista de tareas</h1>
+        <img src="../images/astrayao.jpg" width="201px" id="imagen">
+        <br>
+
+ <!-- Tarea + boton de agregar-->
+        <input type="text" id="campo" placeholder="Ingrese tarea">
+        <button id="agregador" >agregar</button>
+        <br>
+        <br>
+
+ <!-- Botones filtro -->            
+        <button id="all">todas</button>
+        <button id="pendientes">pendientes</button>
+        <button id="completas">completas</button>
+        
+
+ <!-- Lista de tareas -->
+        <ul id="lista">
+            <!-- Las tareas se agregarán aquí -->
+        </ul>
+
+ <!-- Contador de tareas pendientes -->
+        <div id="contador">0 tareas pendientes</div>
+
+ <!-- Script de la lógica de la aplicación -->
+        <script
+            src="dinamics.js"
+        >
+        </script>
+    </body>
+</html>

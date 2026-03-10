@@ -1,0 +1,44 @@
+
+Para este desafío, vamos a subir un escalón: no haremos el típico "Hola Mundo". Vamos a construir una Lista de Tareas Inteligente (To-Do List) que incluya manipulación 
+del DOM, eventos y validaciones.
+
+
+Parte 1: Estructura y Diseño (HTML & CSS)
+    - Contenedor Principal: 
+    Crea un div centrado que contenga todo el proyecto.
+
+    - Entrada de Datos: 
+    Un campo de texto (input type="text") con un placeholder descriptivo y un botón de "Agregar".
+
+    - Filtros: 
+    Crea tres botones o un menú desplegable para filtrar las tareas: "Todas", "Completadas" y "Pendientes".
+
+    - Lista Vacía: 
+    Un elemento <ul> o <ol> vacío donde se insertarán las tareas mediante JavaScript.
+
+    - Contador: 
+    Un pequeño texto en la parte inferior que diga: "Tienes X tareas pendientes".
+
+
+
+Parte 2: Lógica y Dinamismo (JavaScript)
+    - Captura de Eventos: 
+    Haz que, al hacer clic en "Agregar" (o presionar Enter), el texto del input se convierta en un nuevo elemento de lista (<li>).
+
+    - Validación: 
+    No permitas que el usuario agregue tareas vacías. Si lo intenta, muestra una alerta o cambia el color del borde del input a rojo.
+
+    - Interacción de Tareas:
+        - Cada tarea debe tener un botón de Eliminar.
+        - Cada tarea debe poder marcarse como Completada (puedes usar un checkbox o simplemente hacer que, al hacer clic en el texto, se tache con la propiedad CSS text-decoration: line-through).
+    
+    - Actualización del Estado: 
+    El contador de tareas pendientes debe actualizarse automáticamente cada vez que agregues, borres o completes una tarea.
+
+    - Limpieza: 
+    Una vez agregada una tarea, el campo de texto debe quedar vacío y mantener el foco para escribir la siguiente.
+
+Un reto extra (Nivel "Para forzarte")
+Si sientes que lo anterior fue muy rápido, intenta esto:
+Local Storage: Haz que, aunque refresques la página (F5), las tareas no se borren. Investiga JSON.stringify y localStorage.getItem.
+
